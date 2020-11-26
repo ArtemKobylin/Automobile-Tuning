@@ -1,0 +1,11 @@
+#item_selector {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+#item_specs {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}

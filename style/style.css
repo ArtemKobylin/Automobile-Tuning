@@ -1,0 +1,224 @@
+.hidden {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+
+/**/
+#item_selector_container {
+    width: 100%;
+}
+
+#item_selector_container button{
+    width: 30px;
+    height: 30px;
+    margin: 0px 120px;
+}
+
+/*#item_selector {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}*/
+
+/*#item_specs {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}*/
+
+#use_case_definition label.btn {
+    width: 100px;
+    margin: 1px 1px;
+}
+
+#use_case_definition .col {
+    margin: auto;
+}
+
+#use_case_definition h4 {
+    margin: auto auto 6px;
+}
+
+section.selector .flex_item {
+    display: flex;
+    align-items: center;
+}
+
+#btn_container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+}
+
+#tune_item button{
+    width: 120px;
+}
+/**/
+
+
+/*header section*/
+section.header {
+    min-height: 200px;
+    /*background-color: rgba(255, 209, 209, 0.466);*/
+    background-color: rgba(105, 205, 151, 0.7);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 50px 0px;
+}
+
+section.header h1 {
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+section.header .text {
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    display: block;
+    /*text*/
+    color: rgb(82, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    /*button*/
+    border: 2px solid rgb(6, 19, 15);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217e5f;
+    color: white;
+    transition-duration: 200ms;
+}
+
+section.specifications button {
+    margin: 20px auto;
+}
+
+/*divider*/
+.divider {
+    background-color: black;
+    width: 960px;
+    height: 2px;
+    margin: 0px auto;
+}
+
+/*second, third and forth section*/
+section.selector,
+section.specifications {
+    /*min-height: 500px;*/
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.item_flex_container {
+    flex-direction: column;
+    /*height: 350px;*/
+    align-content: space-around;
+    justify-content: start;
+}
+
+.flex_row {
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.flex_container .flex_item {
+    border: 2px solid rgb(6, 19, 15);
+    margin: 3px 0px;
+}
+
+/*inner content of flex items*/
+.content {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+}
+
+section.selector .flex_item {
+    margin: 0px 20px;
+}
+
+.img_flex_container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.specifications .item_flex_container img {
+    align-self: center;
+    margin-top: 5px;
+}
+
+/*last section*/
+section.last_section {
+    min-height: 400px;
+    background-color: rgba(105, 205, 151, 0.7);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 50px 0px;
+}
+
+section.last_section .flex_container {
+    justify-content: space-between;
+}
+
+section.last_section .flex_item {
+    width: 300px;
+    border: none;
+}
+
+section.last_section .text {
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    min-height: 200px;
+}

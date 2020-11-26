@@ -1,0 +1,32 @@
+h2 {
+    margin-bottom: 25px;
+}
+
+section.main_content {
+    margin: 40px 0px;
+}
+
+.divider-vertical{
+    display: inline-block;
+    background-color: black;
+    width: 2px;
+    height: 100%;
+    margin: 0px;
+}
+
+#tuning_options button{
+    width: 170px;
+}
+
+#item_selector {
+    margin-bottom: 45px;
+}
+
+#item_specs {
+    border: 2px solid rgb(6, 19, 15);
+    padding: 15px;
+}
+
+#item_specs ul {
+    margin-left: 25px;
+}
